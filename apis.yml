@@ -1,8 +1,28 @@
 aid: goyazjewellery
-name: Goyazjewellery
-description: 'Goyazjewellery is a company surfaced as a portfolio company of norwest-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a
-  lead awaiting the enrichment pipeline.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/goyazjewellery.png
+name: Goyaz Silver Jewellery
+description: 'Goyaz Silver Jewellery is a Hyderabad-based Indian jewellery retail brand founded in
+  January 2023 by Priyanka Vemuluri, specializing in 92.5 premium and gold-plated silver jewellery that
+  blends traditional Indian craftsmanship with contemporary, occasion-led design. Operating a chain of
+  18 retail stores across Telangana, Andhra Pradesh and Karnataka (including Kukatpally, Punjagutta,
+  Suchitra Circle, Vijayawada and Visakhapatnam), Goyaz positions gold-plated silver as an accessible
+  luxury alternative to gold. In October 2025 the company raised a Rs 130 crore (~$14.6M) Series A round
+  led by Norwest Venture Partners, its first institutional funding, to expand its retail footprint,
+  strengthen design and manufacturing, and enhance its omnichannel experience. The company operates an
+  online storefront and social commerce presence but publishes no public developer API, SDK, or
+  documentation surface. This profile entered the API Evangelist network as a Norwest Venture Partners
+  portfolio lead.'
 url: https://raw.githubusercontent.com/api-evangelist/goyazjewellery/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,18 +30,41 @@ x-backed-by:
 - norwest-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-sector: consumer-retail-jewelry
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
-- Unknown
+- Jewelry
+- Retail
+- Ecommerce
+- Consumer Goods
+- Silver Jewellery
+- India
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+- FN: Goyaz Silver Jewellery
+  email: info@goyazjewellery.com
 common:
+- type: DomainSecurity
+  url: security/goyazjewellery-domain-security.yml
 - type: Website
   url: https://goyazjewellery.com
+- type: Twitter
+  url: https://x.com/goyazjewellery
+- type: Instagram
+  url: https://www.instagram.com/goyazsilverjewellery/
+- type: YouTube
+  url: https://www.youtube.com/channel/UCiMTGu9DKJGX1X5kDI4kW4Q
+- type: Facebook
+  url: https://www.facebook.com/goyazsilverjewellery/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
